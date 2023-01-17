@@ -1,0 +1,185 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+body {
+
+    background-image: url('https://i.ibb.co/tCstxr2/background.png');
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    background-size: cover;
+
+    font-family: 'VT323', monospace;
+
+}
+
+.container {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+.pokedex {
+
+    width: 600px;
+
+    filter: drop-shadow(3px 5px 10px black)
+
+}
+
+.name {
+
+    position: absolute;
+
+    left: 95px;
+
+    top: 23.6rem;
+
+    font-size: 15px;
+
+}
+
+.height,
+
+.weight {
+
+    position: absolute;
+
+    color: white;
+
+    font-size: 14px;
+
+    top: 24.6rem;
+
+}
+
+.height {
+
+    left: 22.2rem;
+
+}
+
+.weight {
+
+    left: 29.8rem;
+
+}
+
+.display-left {
+
+    position: absolute;
+
+    top: 8.7rem;
+
+    right: 10.5rem;
+
+    color: white;
+
+    font-size: 14px;
+
+}
+
+.display-right {
+
+    position: absolute;
+
+    top: 9.7rem;
+
+    right: 3rem;
+
+    font-size: 14px;
+
+    color: white;
+
+}
+
+.real-btn-left,
+
+.real-btn-right {
+
+    position: absolute;
+
+    height: 30px;
+
+    width: 50px;
+
+    top: 22.5rem;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+}
+
+.pokemon-image {
+
+    position: absolute;
+
+    top: 12rem;
+
+    left: 7.8rem;
+
+    width: 70px;
+
+}
+
+.real-btn-left {
+
+    left: 14.5rem;
+
+}
+
+.real-btn-right {
+
+    left: 11.5rem;
+
+}
+
+.light {
+
+    z-index: 10;
+
+    top: 1.9rem;
+
+    left: 2.65rem;
+
+    position: absolute;
+
+    background-color: rgba(255, 255, 255, 1);
+
+    height: 60px;
+
+    width: 60px;
+
+    border-radius: 100px;
+
+    filter: drop-shadow(0px 0px 15px white);
+
+    opacity: 0;
+
+}
+
+.mensage {
+
+    position: absolute;
+
+    font-size: 34px;
+
+    bottom: -10%;
+
+    left: 12%;
+
+}
