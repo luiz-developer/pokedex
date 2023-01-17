@@ -1,0 +1,113 @@
+@media screen and (max-width: 768px) {
+    .container {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-51%, 0%);
+        margin-top: 30px
+    }
+
+    .pokedex {
+        width: 400px;
+    }
+
+    .name {
+        left: 65px;
+        top: 15.7rem;
+        font-size: 12px;
+    }
+
+    .pokemon-image {
+        top: 7.8rem;
+        left: 5.2rem;
+        width: 50px;
+    }
+
+    .real-btn-left,
+    .real-btn-right {
+        top: 14rem;
+        height: 50px;
+        width: 30px;
+    }
+
+    .real-btn-left {
+        left: 10.2rem;
+    }
+
+    .real-btn-right {
+        left: 7.2rem;
+    }
+
+    .height,
+    .weight {
+        color: white;
+        font-size: 10px;
+        top: 16.4rem;
+    }
+
+    .height {
+        left: 14.8rem;
+    }
+
+    .weight {
+        left: 19.9rem;
+    }
+
+    .display-left {
+        top: 5.9rem;
+        right: 7.1rem;
+        color: white;
+        font-size: 9px;
+    }
+
+    .display-right {
+        top: 6.5rem;
+        right: 2.3rem;
+        font-size: 9px;
+        color: white;
+    }
+
+    .light {
+        z-index: 10;
+        top: 1.1rem;
+        left: 1.5rem;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 1);
+        height: 45px;
+        width: 45px;
+        border-radius: 100px;
+        filter: drop-shadow(0px 0px 15px white);
+        opacity: 0;
+    }
+
+    .mensage {
+        font-size: 24px;
+        bottom: -60%;
+        left: 10%;
+    }
+
+    /*ajust name*/
+    .caracter-3-4 {
+        left: 88px;
+    }
+
+    .caracter-5-7 {
+        left: 73px;
+    }
+
+    .caracter-8-9 {
+        left: 68px;
+    }
+
+    .caracter-10 {
+        left: 65px;
+    }
+
+    .caracter-11 {
+        left: 60px;
+    }
+
+    .caracter-12 {
+        left: 60px;
+    }
+}

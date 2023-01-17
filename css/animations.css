@@ -1,0 +1,25 @@
+.active {
+    animation: light 700ms;
+}
+
+@keyframes light {
+    0% {
+        opacity: 0;
+    }
+    
+    25% {
+        opacity: .5;
+    }
+    
+    50% {
+        opacity: 1;
+    }
+    
+    80% {
+        opacity: .5;
+    }
+    
+    100% {
+        opacity: 0;
+    }
+}
